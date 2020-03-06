@@ -2,6 +2,9 @@
 *.sw*
 .vscode
 .DS_Store
+.cproject
+.project
+.settings/
 
 # Build directory.
 build/
