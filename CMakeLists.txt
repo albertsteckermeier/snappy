@@ -194,6 +194,7 @@ target_include_directories(snappy
     $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>
     $<INSTALL_INTERFACE:include>
 )
+set_property(TARGET snappy PROPERTY POSITION_INDEPENDENT_CODE ON)
 set_target_properties(snappy
   PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION ${PROJECT_VERSION_MAJOR})
 
